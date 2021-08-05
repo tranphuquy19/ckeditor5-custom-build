@@ -2,7 +2,7 @@
   "name": "@doracoder/ckeditor5-custom-build",
   "author": "Tran Quy <tranphuquy19@gmail.com>",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "files": [

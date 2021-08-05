@@ -14,7 +14,7 @@ import ClassicEditor from '@doracoder/ckeditor5-custom-build/build/ckeditor'
 import {API_URL} from '../../shared/config';
 import './reset.css';
 
-const TextEditor = ({value, onEditChange}) => {
+function TextEditor({value, onEditChange}) {
     const custom_config = {
         extraPlugins: [MyCustomUploadAdapterPlugin],
         allowedContent: 'p b i; a[!href] table',
