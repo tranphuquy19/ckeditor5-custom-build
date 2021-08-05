@@ -268,7 +268,7 @@ import TextEditor from './text-editor.js'
 function EditBlogComponent() {
     const [content, setContent] = useState('');
 
-    const onEditorChange = ({target: {name, target}}) => {
+    const onEditorChange = ({target: {name, value}}) => {
         setContent({
             [name]: value
         });
